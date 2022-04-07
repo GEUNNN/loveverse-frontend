@@ -1,0 +1,39 @@
+{
+  "result": [
+    {
+      "id": 0,
+      "artistName": "SEVENTEEN",
+      "image": "https://cdn-contents.weverse.io/admin/xlx2048/jpg/00c10d7818da41788c33b014346fda17312.jpg"
+    },
+    {
+      "id": 1,
+      "artistName": "NU'EST",
+      "image": "https://cdn-contents.weverse.io/admin/xlx2048/png/c3b471914ace43e3b1675cfc29ed2adb200.png"
+    },
+    {
+      "id": 2,
+      "artistName": "iKON",
+      "image": "https://cdn-contents.weverse.io/admin/xlx2048/png/346c57cc115f4a128b664e2ef8c6204a919.png"
+    },
+    {
+      "id": 3,
+      "artistName": "WINNER",
+      "image": "https://cdn-contents.weverse.io/admin/xlx2048/png/122262f1689046e7b47f568a3f5c1765066.png"
+    },
+    {
+      "id": 4,
+      "artistName": "BLACKPINK",
+      "image": "https://cdn-contents.weverse.io/admin/xlx2048/png/9748dae239044e65835bd894768beebe971.png"
+    },
+    {
+      "id": 5,
+      "artistName": "ONEUS",
+      "image": "https://cdn-contents.weverse.io/admin/xlx2048/png/f8083092946c4957b1d290f62eaa8651467.png"
+    },
+    {
+      "id": 6,
+      "artistName": "VERIVERY",
+      "image": "https://cdn-contents.weverse.io/admin/xlx2048/png/4d9c4fdb4b6d482b977b4761e9b532bf387.png"
+    }
+  ]
+}
