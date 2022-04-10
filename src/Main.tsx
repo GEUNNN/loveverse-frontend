@@ -7,7 +7,7 @@ export interface ArtistResData {
   image: string;
 }
 
-function App() {
+function Main() {
   const [artists, setArtists] = useState<ArtistResData[]>([]);
 
   const result = axios.get("http://localhost:3001/data/main.json");
@@ -18,4 +18,4 @@ function App() {
   return <div className="App">loveverse 안뇽</div>;
 }
 
-export default App;
+export default Main;
