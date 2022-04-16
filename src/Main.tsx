@@ -33,7 +33,6 @@ function Main() {
         <button>로그인</button>
       </nav>
       <div>
-        <div>안뇽</div>
         <div>
           {artists.map((item: ArtistResData) => (
             <ArtistItem key={item.id} data={item} />

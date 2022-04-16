@@ -11,5 +11,10 @@ export interface ArtistData {
 }
 
 export default function ArtistItem({ data }: ArtistDataProps) {
-  return <div>{data?.artistName}</div>;
+  return (
+    <div>
+      <img src={data?.image} alt={data?.artistName} />
+      {data?.artistName}
+    </div>
+  );
 }
