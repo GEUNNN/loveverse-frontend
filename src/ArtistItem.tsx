@@ -1,13 +1,15 @@
 import React from "react";
 
-// export interface ArtistData {
-//   id: number;
-//   artistName: string;
-//   image: string;
-// }
+export interface ArtistDataProps {
+  data: ArtistData;
+}
 
-export default function ArtistItem(data: any) {
-  console.log("data >>", data);
+export interface ArtistData {
+  id: number;
+  artistName: string;
+  image: string;
+}
 
-  return <div>ArtistItem</div>;
+export default function ArtistItem({ data }: ArtistDataProps) {
+  return <div>{data?.artistName}</div>;
 }

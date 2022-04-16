@@ -36,7 +36,7 @@ function Main() {
         <div>안뇽</div>
         <div>
           {artists.map((item: ArtistResData) => (
-            <ArtistItem data={item} />
+            <ArtistItem key={item.id} data={item} />
           ))}
         </div>
       </div>
