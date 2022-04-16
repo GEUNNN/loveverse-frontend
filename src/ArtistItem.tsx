@@ -1,5 +1,13 @@
 import React from "react";
 
-export default function ArtistItem() {
+// export interface ArtistData {
+//   id: number;
+//   artistName: string;
+//   image: string;
+// }
+
+export default function ArtistItem(data: any) {
+  console.log("data >>", data);
+
   return <div>ArtistItem</div>;
 }

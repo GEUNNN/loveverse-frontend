@@ -1,5 +1,6 @@
 import axios from "axios";
 import React, { useEffect, useState } from "react";
+import ArtistItem from "./ArtistItem";
 import { ReactComponent as Logo } from "./assets/logo.svg";
 
 export interface ArtistResData {
@@ -35,7 +36,7 @@ function Main() {
         <div>안뇽</div>
         <div>
           {artists.map((item: ArtistResData) => (
-            <div>{item.artistName}</div>
+            <ArtistItem data={item} />
           ))}
         </div>
       </div>
