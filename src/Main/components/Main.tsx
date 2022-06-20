@@ -1,7 +1,7 @@
+import { useEffect, useState } from "react";
 import axios from "axios";
-import React, { useEffect, useState } from "react";
 import ArtistItem from "./ArtistItem";
-import { ReactComponent as Logo } from "./assets/logo.svg";
+import Logo from "../../assets/logo.svg";
 
 export interface ArtistResData {
   id: number;
@@ -28,7 +28,7 @@ function Main() {
   return (
     <div className="App">
       <nav>
-        <Logo />
+        <img src={Logo} alt="Logo" />
         <button>회원가입</button>
         <button>로그인</button>
       </nav>
